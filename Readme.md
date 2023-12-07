@@ -37,6 +37,7 @@ Education_cloud_platform_upload.py是我自己写的一个批量漏洞检测脚�
 Fofa搜索语句
 ```
 body="Copyright © 2005-2018 广州市奥威亚电子科技有限公司"
+
 body="/Upload/DomainInfo/MaxAVALogo.png"
 ```
 
@@ -44,5 +45,6 @@ body="/Upload/DomainInfo/MaxAVALogo.png"
 
 ```
 pocsuite -r ./Education_cloud_platform_upload.py -u ip
+
 pocsuite -r ./Education_cloud_platform_upload -f url_file
 ```

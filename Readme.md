@@ -1,4 +1,17 @@
-Multiple-vendors-RCE.py是我自己写的一个批量漏洞检测脚本，主要检测多个产商安全产品的命令执行漏洞
+脚本使用方法
+
+```
+pocsuite -r ./Multiple-vendors-RCE.py -u ip
+pocsuite -r ./Multiple-vendors-RCE.py -f url_file
+```
+
+
+
+
+
+
+
+Multiple-vendors-RCE.py检测多个产商安全产品的命令执行漏洞
 
 受影响的产商
 
@@ -23,16 +36,9 @@ Fofa搜索语句
 ```
 body="/webui/images/default/default/alert_close.jpg"
 ```
-
-脚本使用方法
-
-```
-pocsuite -r ./Multiple-vendors-RCE.py -u ip
-pocsuite -r ./Multiple-vendors-RCE.py -f url_file
-```
 ------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------
-Education_cloud_platform_upload.py是我自己写的一个批量漏洞检测脚本，主要检测某教育视频云平台前台某接口文件上传漏洞
+Education_cloud_platform_upload.py主要检测某教育视频云平台前台某接口文件上传漏洞
 ```
 Fofa搜索语句
 ```
@@ -40,11 +46,12 @@ body="Copyright © 2005-2018 广州市奥威亚电子科技有限公司"
 
 body="/Upload/DomainInfo/MaxAVALogo.png"
 ```
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+superdata-upload.py主要检测速达软件全系产品的任意文件上传漏洞
 
-脚本使用方法
-
+Fofa搜索语句
 ```
-pocsuite -r ./Education_cloud_platform_upload.py -u ip
-
-pocsuite -r ./Education_cloud_platform_upload.py -f url_file
+app="速达软件-公司产品"
 ```
+

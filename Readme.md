@@ -17,6 +17,11 @@ HUAWEI-公司产品
 任子行网络安全审计系统
 绿盟安全审计系统
 深圳市鑫塔科技有限公司第二代防火墙
+
+```
+Fofa搜索语句
+```
+body="/webui/images/default/default/alert_close.jpg"
 ```
 
 脚本使用方法

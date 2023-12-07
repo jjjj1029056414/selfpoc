@@ -46,5 +46,5 @@ body="/Upload/DomainInfo/MaxAVALogo.png"
 ```
 pocsuite -r ./Education_cloud_platform_upload.py -u ip
 
-pocsuite -r ./Education_cloud_platform_upload -f url_file
+pocsuite -r ./Education_cloud_platform_upload.py -f url_file
 ```

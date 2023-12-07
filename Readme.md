@@ -1,4 +1,4 @@
-Multiple_vendors_RCE.py是我自己写的一个批量漏洞检测脚本，主要检测多个产商安全产品的命令执行漏洞
+Multiple-vendors-RCE.py是我自己写的一个批量漏洞检测脚本，主要检测多个产商安全产品的命令执行漏洞
 
 受影响的产商
 
@@ -27,8 +27,8 @@ body="/webui/images/default/default/alert_close.jpg"
 脚本使用方法
 
 ```
-pocsuite -r ./Multiple_vendors_RCE.py -u ip
-pocsuite -r ./Multiple_vendors_RCE.py -f url_file
+pocsuite -r ./Multiple-vendors-RCE.py -u ip
+pocsuite -r ./Multiple-vendors-RCE.py -f url_file
 ```
 ------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------

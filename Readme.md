@@ -7,10 +7,6 @@ pocsuite -r ./Multiple-vendors-RCE.py -f url_file
 
 
 
-
-
-
-
 Multiple-vendors-RCE.py检测多个产商安全产品的命令执行漏洞
 
 受影响的产商

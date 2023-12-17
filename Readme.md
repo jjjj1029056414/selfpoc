@@ -170,3 +170,10 @@ Fofa搜索语句
 ```
 body="glyphicon-remove" && body="$randdt;" && country="CN"
 ```
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+livebos-crm-scriptvariable-rce.py检测livebos crm scriptvariable.jsp 远程命令执行漏洞
+Fofa搜索语句
+```
+body="/react/browser/loginBackground.png"
+```

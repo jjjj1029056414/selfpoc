@@ -163,3 +163,10 @@ Fofa搜索语句
 ```
 "sec_gate_image/button_normal.gif"
 ```
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+milesight-vpn-fileread.py检测milesight vpn 任意文件读取漏洞
+Fofa搜索语句
+```
+body="glyphicon-remove" && body="$randdt;" && country="CN"
+```

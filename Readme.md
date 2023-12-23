@@ -212,3 +212,10 @@ Fofa搜索语句
 ```
 app="大唐电信AC集中管理平台" && fid="gmqJFLGz7L/7TdQxUJFBXQ=="
 ```
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+mingfei-list-sql.py检测铭飞CMS cmscontentlist接口SQL注入
+Fofa搜索语句
+```
+body="铭飞MCMS" || body="/mdiy/formData/save.do" || body="static/plugins/ms/1.0.0/ms.js"
+```

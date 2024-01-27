@@ -354,15 +354,29 @@ app="Atlassian-Confluence"
 ```
 ----------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------
-.py检测
+hikvision-files-fileread.py检测Hikvision综合安防管理平台files;.css接口存在任意文件读取漏洞
 Fofa搜索语句
 ```
-body="https://bladex.vip" && country="CN"
+body="/portal/skin/isee/redblack/"
 ```
 ----------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------
-springboot-apiblade-user-sql.py检测SpringBlade export-user SQL 注入漏洞
+edusoho-fileread.py检测EduSoho任意文件读取漏洞
 Fofa搜索语句
 ```
-body="https://bladex.vip" && country="CN"
+title="Powered By EduSoho" || body="Powered by <a href=\"http://www.edusoho.com/\" target=\"_blank\">EduSoho" || (body="Powered By EduSoho" && body="var app")
+```
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+likeshop-upload.py检测Likeshop任意文件上传漏洞
+Fofa搜索语句
+```
+title="Likeshop"
+```
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+wanhu-text-fileread.py检测万户OA text2Html 任意文件读取漏洞
+Fofa搜索语句
+```
+app="万户网络-ezOFFICE"
 ```

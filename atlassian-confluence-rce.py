@@ -6,10 +6,10 @@ from pocsuite3.api import get_listener_ip, get_listener_port
 from pocsuite3.api import REVERSE_PAYLOAD, random_str
 
 class Atlassian_Confluence_rce(POCBase):
-    pocDesc = '''Hikvision综合安防管理平台files;.css接口存在任意文件读取漏洞'''
+    pocDesc = '''Atlassian Confluence 远程命令执行漏洞'''
     author = '炼金术师诸葛亮'
     createDate = '2024-1-25'
-    name = 'Hikvision综合安防管理平台files;.css接口存在任意文件读取漏洞'
+    name = 'Atlassian Confluence 远程命令执行漏洞'
     #app="Atlassian-Confluence"
 
     def _verify(self):
